@@ -606,6 +606,55 @@
   }
   .removehdr a.active{
     color: #E07A55;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+  .removehdr a{
+    color: #B1B3BD;
+    text-decoration: none;
+    position: relative; 
   }
   
+  .removehdr a.active:before {
+    position: absolute;
+    border-bottom: solid 3px #E07A55;
+    width: 100%;
+    content: '';
+    bottom: 0;
+  }
+  input.removebtn {
+    background: no-repeat;
+    color: #000;
+  
+  }
+  span.linebreak {
+    display: block;
+    background: #fff;
+    width: 40px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 2;
+    color: #B1B3BD;
+    font-size: 14px;
+  }
+  span.linebreak:before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 2px;
+    background: #cccccc;
+    left: -155px;
+    right: 0;
+    top: 12px;
+    z-index: 1;
+}
+  span.linebreak:after {
+      position: absolute;
+      content: '';
+      width: 155px;
+      height: 2px;
+      background: #cccccc;
+      left: 40px;
+      right: 0;
+      top: 12px;
+      z-index: 1;
+}

@@ -108,7 +108,11 @@ const Physicians = () => {
 
                                                                 </div>
                                                             </div>
-                                                           <div className='text-center'><input type='button' class='btn btn-primary' value='Update'></input></div> 
+                                                               <div className='text-center'>
+                                                                   <input type='button' class='btn btn-primary w-100' value='Update'></input>
+                                                                   <span className='linebreak'>OR</span>
+                                                                   <input type='button' class='btn btn-primary w-100 removebtn' value='Remove from Profile'></input>
+                                                               </div> 
                                                             </div>
 
                                                         </div>
