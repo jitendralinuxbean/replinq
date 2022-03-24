@@ -1,6 +1,7 @@
 import React from 'react'
 import AdminLeftMenu from './backend/AdminLeftMenu';
 
+
 const Admin = () => {
     return (
     
@@ -86,8 +87,94 @@ const Admin = () => {
                         <div className="schedule-boxleft">
                                 <div className="yearbox">
                                     <h2>Yearly Schedules Insight</h2>
-                                    <span><a href="#" className="me-4 text-dark addphy"><i className="fa fa-plus"></i> <b className='d-none d-lg-inline'>Add Physicians</b></a>
+                                    <span><a href="#" className="me-4 text-dark addphy" data-bs-toggle="modal" data-bs-target="#addphysicians"><i className="fa fa-plus"></i> <b className='d-none d-lg-inline'>Add Physicians</b></a>
+                                        
                                     </span>
+
+                                    <div className="modal smallsize" id="addphysicians">
+                                        <div className="modal-dialog">
+                                            <div className="modal-content"> 
+                                                    <div className="modal-body">
+                                                    <button type="button" class="btn-close loginmdl" data-bs-dismiss="modal"></button>
+                                                        <div className='row'>
+                                                         <div className='modalWrap'>
+                                                            <div className='addmodalHeader'>
+                                                             <div className='addpypagi active'>
+                                                                <span>1</span>
+                                                                 <p>Color</p>
+                                                             </div>
+                                                             <div className='addpypagi'>
+                                                                <span>2</span>
+                                                                 <p>Notifications</p>
+                                                             </div>
+
+                                                            </div>
+
+                                                            <div className='addmodalhero'>
+                                                            <img src="/images/add-physician-hero.png" width={292} />
+                                                             <h3>Choose a Color</h3>
+                                                             <p>
+                                                                 Select a color to help you identify the physician throughout the app
+                                                             </p>
+                                                                
+                                                            </div>
+                                                            <div className='addmodalbdy'>
+                                                                <h4>Physician</h4>
+                                                                
+                                                                <div class="dr-name p-0 d-flex">
+                                                                
+                                                                <div className='addnamephy'>                                                                
+                                                                <b><span class="dot-box2"></span> Dr. Sarah Jonas </b>
+                                                                <span>(Radiologist)</span>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                                <div className='colorbox'>
+                                                                    <h4>Color</h4>
+                                                                  <div className='selctClr'>
+                                                                  <div>
+                            <input id="radio-1" class="radio-custom" name="radio-group" type="radio" />
+                            <label for="radio-1" class="radio-custom-label rc1"></label>
+                        </div>
+                        <div>
+                            <input id="radio-2" class="radio-custom"name="radio-group" type="radio" />
+                            <label for="radio-2" class="radio-custom-label rc2"></label>
+                        </div>
+                        <div>
+                            <input id="radio-3" class="radio-custom" name="radio-group" type="radio" />
+                            <label for="radio-3" class="radio-custom-label rc3"></label>
+                        </div>
+
+                        <div>
+                            <input id="radio-4" class="radio-custom" name="radio-group" type="radio"  />
+                            <label for="radio-4" class="radio-custom-label rc4"></label>
+                        </div>
+                        <div>
+                            <input id="radio-5" class="radio-custom"name="radio-group" type="radio" checked />
+                            <label for="radio-5" class="radio-custom-label rc5"></label>
+                        </div>
+                        <div>
+                            <input id="radio-6" class="radio-custom" name="radio-group" type="radio" />
+                            <label for="radio-6" class="radio-custom-label rc6"></label>
+                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                           <div className='text-center'><input type='button' class='btn btn-primary' value='Confirm'></input></div> 
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                   
+
+
+
+
+
                                 </div>
 
                                 <ul className="list-group addphylist">
