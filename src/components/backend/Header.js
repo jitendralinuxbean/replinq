@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
     return (
 
 <>
@@ -13,6 +13,7 @@ const Header = () => {
               <i className='fa fa-bars'></i>
               </button>
               <Link to="/"> <img src="\images\logo.png" width={'100'} alt=""/></Link>
+              {props.title}
           </div>
 
           <div className='col-7 col-lg-10 text-end'>

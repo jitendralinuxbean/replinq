@@ -152,7 +152,7 @@ a.nav-link {
     gap: 15px;
     }
     .phyaddprfile {
-      padding: 20px 30px;
+      padding: 20px 30px !important;
   }
   .upschedulebox{
     margin: 0;
@@ -179,6 +179,11 @@ a.nav-link {
     outline: 0;
     box-shadow: none;
   }
+
+  /* .offcanvas-backdrop.show {
+    opacity: 0;
+    position: relative;
+  } */
 
 }
 
