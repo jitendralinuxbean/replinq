@@ -1,4 +1,5 @@
 import React from 'react'
+import Testimonails from './fronend/Testimonials';
 
 const Home = () => {
     return (
@@ -60,66 +61,9 @@ const Home = () => {
         </div>
 
     
-    <div className='container'>
-        <div className='testimonialsec'>   
-            <div className='row text-center'>
-                <div className='testheading'>
-                <h2>Testimonials</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-                </div>
-            </div>
+        <Testimonails />
+ 
 
-            <div className='row'>
-                <div className='col-md-4'>
-                    <div className='testimonailbox'>
-                    <span className='quote'><img src="\images\quotes.svg" alt=""/></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            <div className='profilesec'>
-                                <span className='profilepic'>
-                                <img src="\images\profilePic.png" alt=""/>
-                                </span>
-                                <div className='profName'>
-                                    <h5>Veronica Adam</h5>
-                                    <span>Lorem Ipsum Hospital</span>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div className='col-md-4'>
-                   <div className='testimonailbox active'>                       
-                        <span className='quote'><img src="\images\quotes.svg" alt=""/></span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                        <div className='profilesec'>
-                            <span className='profilepic'>
-                            <img src="\images\profilePic.png" alt=""/>
-                            </span>
-                            <div className='profName'>
-                                <h5>Veronica Adam</h5>
-                                <span>Lorem Ipsum Hospital</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-4'>
-                    <div className='testimonailbox'>
-                    <span className='quote'><img src="\images\quotes.svg" alt=""/></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                            <div className='profilesec'>
-                                <span className='profilepic'>
-                                <img src="\images\profilePic.png" alt=""/>
-                                </span>
-                                <div className='profName'>
-                                    <h5>Veronica Adam</h5>
-                                    <span>Lorem Ipsum Hospital</span>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>        
     </section>
     </>
     
