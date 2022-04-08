@@ -9,6 +9,7 @@ import Profile from "./components/Profile";
 import Notification from "./components/Notification";
 import Physicians from "./components/Physicians";
 import NoPage from "./components/NoPage";
+import About from "./components/fronend/About";
 
 
 export default function App() {
@@ -35,6 +36,10 @@ export default function App() {
 
         <Route path="/notification" element={<Backend />}>            
            <Route index element={<Notification />} />
+        </Route>
+
+        <Route path="/about" element={<Frontend />}>            
+           <Route index element={<About />} />
         </Route>
 
         <Route path="*" element={<NoPage />} />

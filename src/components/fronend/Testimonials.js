@@ -36,7 +36,7 @@ const Testimonails = () => {
                 dots
                 loop
                 center
-                margin={20}
+                margin={20}               
                  
             >
             <div className='items'>
