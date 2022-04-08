@@ -40,6 +40,7 @@ export default function App() {
 
         <Route path="/about" element={<Frontend />}>            
            <Route index element={<About />} />
+           
         </Route>
 
         <Route path="*" element={<NoPage />} />

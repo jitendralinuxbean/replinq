@@ -12,7 +12,7 @@ const About = () => {
     <div className="fronpage"> 
            
                <div className="container">
-                   test
+                   <h1>About Us</h1>
                </div>
     </div>
     </>    
